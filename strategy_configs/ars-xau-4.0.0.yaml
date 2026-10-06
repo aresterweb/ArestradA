@@ -1,0 +1,11 @@
+strategy: ARS-XAU
+version: 4.0.0-dev
+status: DEVELOPMENT
+symbol: XAU/USD
+principles:
+  fail_closed: true
+  closed_candle_confirmation: true
+  no_lookahead: true
+risk:
+  minimum_rr: 1.5
+# Numerical market thresholds remain intentionally unoptimized until replay/paper validation.
